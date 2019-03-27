@@ -76,18 +76,20 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 40px;
+	margin: 20px 0;
 	width: 880px;
-	border: 2px solid red;
+}
+
+.navigation nav {
+	display: flex;
+	justify-content: flex-start;
 }
 
 
 .navigation nav a {
-	margin: 0 20px;
+	margin: 0 60px 0 0;
 	text-decoration: none;
-	color: gray;
-
-	
+	color: gray;	
 }
 
 
@@ -128,7 +130,7 @@ header .header .left-content button {
 }
 
 .services-header p {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 	
 /*  First content area Main page */
@@ -142,8 +144,7 @@ header .header .left-content button {
 
 .main-content .first-content div {
 	 width: 400px; 
-	 padding: 10px 0;
-	 
+	 padding: 10px 0;	 
  } 
 
  /* Second content area Main page*/
@@ -176,7 +177,7 @@ header .header .left-content button {
 	width: 420px;
 	height: 225px;
 	padding: 20px;
-	margin: 20px 0 20px 0;
+	margin: 30px 0 30px 0;
 }
 
 .main-content-services button {
@@ -212,6 +213,7 @@ footer {
 .summary-content{
 	display: flex;
 	justify-content: space-between;	
+	margin-top: 14px;
 }
 
 .summary-content div {
