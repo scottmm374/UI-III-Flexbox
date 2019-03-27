@@ -78,13 +78,16 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	margin-top: 40px;
 	width: 880px;
+	border: 2px solid red;
 }
 
 
 .navigation nav a {
-	margin: 0 10px;
+	margin: 0 20px;
 	text-decoration: none;
 	color: gray;
+
+	
 }
 
 
@@ -137,7 +140,7 @@ header .header .left-content button {
 	width: 880px; 
 } 
 
-  .main-content .first-content div {
+.main-content .first-content div {
 	 width: 400px; 
 	 padding: 10px 0;
 	 
@@ -145,7 +148,7 @@ header .header .left-content button {
 
  /* Second content area Main page*/
 
- .main-content .second-content {
+.main-content .second-content {
 	display: flex;
 	width: 880px;
 	justify-content: space-between;
@@ -153,7 +156,7 @@ header .header .left-content button {
 	border-bottom: 1px solid gray;
  }
 
- .main-content .second-content div {
+.main-content .second-content div {
 	width: 270px;
 	padding: 20px 0;	
 }
@@ -218,5 +221,9 @@ footer {
 
 .summary-content ul{
 	list-style: disc;
-	padding-left: 5px;
+	margin-left: 20px;
+}
+
+.summary-content ul li{
+	line-height: 2;
 }
